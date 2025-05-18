@@ -53,7 +53,7 @@ class Robots {
 
 
 function draw() {
-    background("black");
+    background("blue");
     image(backgroundImage, 0, 0, windowWidth, windowHeight);
     robotsList.forEach(processRobotList);
     makeBlocks();
